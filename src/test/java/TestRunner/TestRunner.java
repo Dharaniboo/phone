@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 features = "src/test/java/Features"
-,glue= {"src/test/java/StepDefinitions"}
+,glue= {"StepDefinitions"}
 ,plugin = { "pretty", "html:target/cucumber-reports.html","json:target/cucumber.json" },
 monochrome = true
 )
@@ -15,3 +15,4 @@ monochrome = true
 public class TestRunner {
 
 }
+//src/test/java/
